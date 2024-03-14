@@ -15,3 +15,6 @@
 
 # Legal warning
 - For educational and entertainment purposes only. You can use this program to mess around with your friends. Use it at your own risk. Any legal, criminal and financial liability that may arise from disturbing or threatening someone else belongs to the user, not me.
+
+# Usage
+- Simply run the install.bat inside of the Installation folder.
